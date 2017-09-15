@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage1.master.cs" Inherits="denemeLastBS.masterPage1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        
+        <div class="jumbotron" style="margin-bottom:0px";>
+          <h1>Uygun İlanı Bul</h1>
+          <p>Bu web uygulaması aradığınız kriterlere uygun ilanları filtreler ve size en uygun ilanları mail adresinize gönderir.</p>
+
+        </div>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="WebForm1.aspx">Araba Ara <span class="sr-only"></span></a></li>
+                        <li><a href="WebForm2.aspx">Ev Ara</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        
+        
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        <div class="panel panel-footer" style="margin-top:40px";>
+            Footer metni
+        </div>
+    </form>
+</body>
+</html>
