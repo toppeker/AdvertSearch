@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage1.master.cs" Inherits="denemeLastBS.masterPage1" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage1.master.cs" Inherits="denemeLastBS.masterPage1" %>
 
 <!DOCTYPE html>
 
@@ -16,7 +16,7 @@
     
         
         <div class="jumbotron" style="margin-bottom:0px";>
-          <h1>Uygun İlanları Bul</h1>
+          <h1>Uygun İlanı Bul</h1>
           <p>Bu web uygulaması aradığınız kriterlere uygun ilanları filtreler ve size en uygun ilanları mail adresinize gönderir.</p>
 
         </div>
