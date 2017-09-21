@@ -1,4 +1,4 @@
-# CrawlerRepo
+# Internship-Project-Repo
 
 Repository of my summer internship project.
 
